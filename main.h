@@ -19,28 +19,28 @@
 #define SIZES_SHORT 1
 
 /**
- * struct fmt - Struct op
+ * struct format_func - Struct op
  *
- * @fmt: The format.
+ * @format_func: The format.
  * @fn: The function associated.
  */
-struct fmt
+struct format_func
 {
-	char fmt;
-	int (*fn)(va_list, char[], int, int, int, int);
+	char arg;
+	int (*formatter)(va_list, char[], int, int, int, int);
 };
 
 
 /**
- * typedef struct fmt fmt_t - Struct op
+ * typedef struct format_func format_function - Struct op
  *
- * @fmt: The format.
+ * @format_func: The format.
  * @fm_t: The function associated.
  */
-typedef struct fmt fmt_t;
+typedef struct format_func format_function;
 
 int _printf(const char *format, ...);
-int handle_print(const char *fmt, int *i,
+int handle_print(const char *format_func, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
