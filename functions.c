@@ -3,12 +3,12 @@
 
 /**
  * print_char - Prints a char
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @types: List of arguments
+ * @buffer: Buffer array 
+ * @flags:  Active flags
  * @width: Width
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: Precision
+ * @size: Size
  * Return: Number of chars printed
  */
 int print_char(va_list types, char buffer[],
@@ -21,12 +21,12 @@ int print_char(va_list types, char buffer[],
 
 /**
  * print_string - Prints a string
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @types: List of arguments
+ * @buffer: Buffer array 
+ * @flags:  Active flags
  * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: Precision
+ * @size: Size
  * Return: Number of chars printed
  */
 int print_string(va_list types, char buffer[],
@@ -76,12 +76,12 @@ int print_string(va_list types, char buffer[],
 
 /**
  * print_percent - Prints a percent sign
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @types: Arguments list
+ * @buffer: Buffer array 
+ * @flags:  Active flags
  * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: Precision
+ * @size: Size
  * Return: Number of chars printed
  */
 int print_percent(va_list types, char buffer[],
@@ -99,12 +99,12 @@ int print_percent(va_list types, char buffer[],
 
 /**
  * print_int - Print int
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @types: Arguments list
+ * @buffer: Buffer array 
+ * @flags:  Active flags
  * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: Precision
+ * @size: Size
  * Return: Number of chars printed
  */
 int print_int(va_list types, char buffer[],
@@ -143,12 +143,12 @@ int print_int(va_list types, char buffer[],
 
 /**
  * print_binary - Prints an unsigned number
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @types: Arguments list
+ * @buffer: Buffer array 
+ * @flags:  Active flags
  * @width: get width.
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: Precision
+ * @size: Size
  * Return: Numbers of char printed.
  */
 int print_binary(va_list types, char buffer[],
