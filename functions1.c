@@ -77,7 +77,7 @@ int print_octa(va_list types, char buffer[],
 
 
 /**
- * print_hexadecimal - Prints an unsigned number in hexadecimal notation
+ * print_hexadec - Prints an unsigned number in hexadecimal notation
  * @types: Arguments list
  * @buffer: Buffer array 
  * @flags:  Active flags
@@ -86,7 +86,7 @@ int print_octa(va_list types, char buffer[],
  * @size: Size
  * Return: Number of chars printed
  */
-int print_hexadecimal(va_list types, char buffer[],
+int print_hexadec(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	return (print_hexa(types, "0123456789abcdef", buffer,
