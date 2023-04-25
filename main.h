@@ -60,14 +60,14 @@ int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_octal(va_list types, char buffer[],
+int print_oct(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_hexadecimal(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_hexa_upper(va_list types, char buffer[],
+int print_hex_upper(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-int print_hexa(va_list types, char map_to[],
+int print_hex(va_list types, char map_to[],
 char buffer[], int flags, char flag_ch, int width, int precision, int size);
 
 /* Function to print non printable characters */
@@ -112,7 +112,7 @@ int append_hexa_code(char, char[], int);
 int is_digit(char);
 
 long int convert_size_number(long int num, int size);
-long int convert_size_unsgnd(unsigned long int num, int size);
+long int convert_size_unsigned(unsigned long int num, int size);
 
 #endif /* MAIN_H */
 
