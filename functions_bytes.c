@@ -95,7 +95,7 @@ int print_hexadec(va_list types, char buffer[],
 
 
 /**
- * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
+ * print_hexadec_upper - Prints an unsigned number in upper hexadecimal notation
  * @types: Arguments list
  * @buffer: Buffer array 
  * @flags:  Active flags
@@ -104,7 +104,7 @@ int print_hexadec(va_list types, char buffer[],
  * @size: Size
  * Return: Number of chars printed
  */
-int print_hexa_upper(va_list types, char buffer[],
+int print_hexadec_upper(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	return (print_hexa(types, "0123456789ABCDEF", buffer,

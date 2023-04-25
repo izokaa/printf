@@ -64,7 +64,7 @@ int print_octa(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_hexadec(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
-int print_hexa_upper(va_list types, char buffer[],
+int print_hexadec_upper(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 int print_hexa(va_list types, char map_to[],
