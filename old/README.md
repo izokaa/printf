@@ -110,9 +110,3 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 ## 15.  *
     - All the above options work well together.
 
-## Authors:
-### Daniel Yohannes: [@leinad85daniel](https://github.com/leinad85daniel)
-### Selahadin Mohammed: [@selahudin](https://github.com/selahudin)
-
-### Thank You!
-"# printf" 
