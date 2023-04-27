@@ -79,7 +79,8 @@ int print_octa(va_list types, char buffer[],
 /**
  * print_hexadec - Prints an unsigned number in hexadecimal notation
  * @types: Arguments list
- * @buffer: Buffer array * @flags:  Active flags
+ * @buffer: Buffer array
+ * @flags:  Active flags
  * @width: get width
  * @precision: Precision
  * @size: Size
