@@ -4,8 +4,7 @@
 /**
  * print_chars - Prints a char
  * @types: List of arguments
- * @buffer: Buffer array 
- * @flags:  Active flags
+ * @buffer: Buffer array * @flags:  Active flags
  * @width: Width
  * @precision: Precision
  * @size: Size
@@ -22,8 +21,7 @@ int print_chars(va_list types, char buffer[],
 /**
  * print_string - Prints a string
  * @types: List of arguments
- * @buffer: Buffer array 
- * @flags:  Active flags
+ * @buffer: Buffer array * @flags:  Active flags
  * @width: get width.
  * @precision: Precision
  * @size: Size
@@ -77,8 +75,7 @@ int print_string(va_list types, char buffer[],
 /**
  * print_percent - Prints a percent sign
  * @types: Arguments list
- * @buffer: Buffer array 
- * @flags:  Active flags
+ * @buffer: Buffer array * @flags:  Active flags
  * @width: get width.
  * @precision: Precision
  * @size: Size
@@ -100,8 +97,7 @@ int print_percent(va_list types, char buffer[],
 /**
  * print_int - Print int
  * @types: Arguments list
- * @buffer: Buffer array 
- * @flags:  Active flags
+ * @buffer: Buffer array * @flags:  Active flags
  * @width: get width.
  * @precision: Precision
  * @size: Size
@@ -144,8 +140,7 @@ int print_int(va_list types, char buffer[],
 /**
  * print_binary - Prints an unsigned number
  * @types: Arguments list
- * @buffer: Buffer array 
- * @flags:  Active flags
+ * @buffer: Buffer array * @flags:  Active flags
  * @width: get width.
  * @precision: Precision
  * @size: Size
