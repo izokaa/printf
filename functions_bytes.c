@@ -97,7 +97,8 @@ int print_hexadec(va_list types, char buffer[],
 /**
  * print_hexadec_upper - Prints an unsigned number in upper hexadecimal notation
  * @types: Arguments list
- * @buffer: Buffer array * @flags:  Active flags
+ * @buffer: Buffer array
+ * @flags:  Active flags
  * @width: get width
  * @precision: Precision
  * @size: Size
@@ -115,7 +116,8 @@ int print_hexadec_upper(va_list types, char buffer[],
  * print_hexa - Prints a hexadecimal number in lower or upper
  * @types: Arguments list
  * @map_to: Array of values to map the number to
- * @buffer: Buffer array * @flags:  Active flags
+ * @buffer: Buffer array
+ * @flags:  Active flags
  * @flag_ch: Active flags
  * @width: get width
  * @precision: Precision
